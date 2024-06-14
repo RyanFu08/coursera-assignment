@@ -1,0 +1,26 @@
+.gibberish {
+    background-color: lightgrey;
+    height: 10000px;
+}
+
+.navbar-default {
+    background-color: lightgrey;
+}
+
+.navbar-brand {
+    font-size: 3em;
+/*    margin-left: 1.3em !important;*/
+}
+
+#pancake {
+    float: right;
+    border-color: black;
+    position: relative;
+    top: -50px;
+}
+
+@media screen and (min-width: 768px) {
+    #beefnav, #chickennav, #sushinav {
+        display: none !important;
+    }
+}
